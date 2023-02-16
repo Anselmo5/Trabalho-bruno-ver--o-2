@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+body{
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+#Container{
+    width:100%;
+    height:617px ;
+    min-height: 550px;
+    max-width: 1200px;
+    min-width: 700px;
+    background: #fff;
+}
+
+.hif{
+    width: 100%;
+    background: #00f6f6;
+    position: fixed;
+    height: 81px;
+    top: 0;
+}
+
+.hif h2{
+    font-size: 50px;
+    color: #09090A;
+    text-shadow: 4px 4px 4px #f5f5f5;
+    top: 11px;
+    position: absolute;
+    left:27px;
+    line-height: 61px;
+
+
+}
+
+.hif ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.hif ul li{
+    float: left;
+    
+}
+
+.hif ul a{
+    display: block;
+    padding: 1px;
+    line-height: 2em;
+    text-decoration: none;
+    margin-left: 300px;
+    margin-top: 25px;
+    color: #09090A;
+    font-size: 20px; 
+    
+}
+
+.hif a:hover{
+    width: 100px;
+    background: #ffffff;
+    color: #09090A;
+    text-align: center;
+    padding: 1px;
+    border-radius: 3px;
+
+}
+
+
+
+
+#post{
+    position: absolute;
+    margin-top: 150px;
+    width: 25%;
+    height: 60%;
+    margin-left: 37px;
+    background:#d9d9d9 ;
+    box-shadow: 5px 5px 4px rgba(6,6,6,0.67);
+    float: right;
+
+}
+
+#post h2{
+    font-family: 'Lora', serif;
+    text-align: center;
+    font-size: 2.3em;
+    line-height: 77px;
+    margin-top: 50px;
+}
+
+#post p{
+    margin: 10px;
+    margin-left: 20px;
+    font-size: 0.79em;
+}
+
+.brv{
+    width: 200px;
+    height: 3px;
+    background: #00f6f6;
+    margin-left: 60px;
+}
+
+#vm{
+    width: 708px;
+    height:204px;
+    margin-top: -200px;
+    margin-left: 500px;
+    background: #ffffff;
+    box-shadow: 4px 4px 4px rgba(6,6,6,0.67); 
+    float: left;
+}
+
+#vm h2{
+    color: #000000;
+}
+
+#active{
+    text-decoration: underline white;
+
+}
+
+.tb{
+    margin-top: 250px;
+    font-size: 2em;
+    text-align: center;
+    margin-left: 100px;
+    text-shadow: 4px 4px 4px rgba(34, 28, 28, 0.6);
+}
+
+#qs{
+    width: 800px;
+    height:204px;
+    margin-top:50px;
+    margin-left: 300px;
+    background: #fffefe;
+    box-shadow: 0px 4px 0px rgba(6,6,6,0.67); 
+    float: left;
+}
+
+#qs p{
+    margin: 10px;
+}
+
+#qs a{
+    text-decoration: none;
+    font-family: 'Lora', serif;
+    color: #09090A;
+    
+}
+
+#qs a:hover{
+    color: orange;
+    text-decoration: underline;
+    font-family: 'Lora', serif;
+}
