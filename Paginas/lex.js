@@ -1,54 +1,36 @@
-let a = document.getElementById("inp1").value ;
-let b = document.getElementById("inp2").value  ;
-let c = document.getElementById("r").value  ;
-
-
-function soma(){
-    let x = document.getElementById("inp1").value ;
-    let y = document.getElementById("inp2").value ;
-    let p = parseFloat(x) + parseFloat(y) ;
-
-    document.getElementById("r").value = p
-    alert(' Seu Calculo foi realizado')
+function insert(num)
+{
+   var numero = document.getElementById('resultado').innerHTML;
+   document.getElementById('resultado').innerHTML =numero + num
 }
 
-function subtracao() {
-    let x = document.getElementById("inp1").value ;
-    let y = document.getElementById("inp2").value ;
-    let p = parseFloat(x) - parseFloat(y) ;
-
-    document.getElementById("r").value = p
-    alert(' Seu Calculo foi realizado')
+function clean(){
+    document.getElementById('resultado').innerHTML = "";
 }
 
-function divisao(){
-    let x = document.getElementById("inp1").value ;
-    let y = document.getElementById("inp2").value ;
-    let p = parseFloat(x) / parseFloat(y) ;
+function back()
+{
+    var resultado = document.getElementById('resultado').innerHTML;
+    document.getElementById('resultado').innerHTML = resultado.substring(0,resultado.length -1)
 
-    document.getElementById("r").value = p
-    alert(' Seu Calculo foi realizado')
+
+
 }
+function calcular() {
 
+    var resultado = document.getElementById('resultado').innerHTML;
+    if(resultado)
+    {
+        document.getElementById('resultado').innerHTML = eval(resultado)
+    }
+    
+ 
 
-function mutiplicacao(){
-    let x = document.getElementById("inp1").value ;
-    let y = document.getElementById("inp2").value ;
-    let p = parseFloat(x) * parseFloat(y) ;
-
-    document.getElementById("r").value = p
-    alert(' Seu Calculo foi realizado')
-}
-
-function lim(){
-   document.getElementById("inp1").value = ("inp1")
-   document.getElementById("inp2").value = ("inp2")
-   document.getElementById("r").value = ("r")
-   alert("O conteudo foi limpo")
-
-    a= ("")
-    b= ("")
-    c= ("")
   
-   
+    
 }
+function mutiplicar (){
+        resultado.innerHTML = parseInt (n1.value) * parseInt(n2.value)
+     }
+
+
