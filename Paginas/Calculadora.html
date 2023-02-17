@@ -21,37 +21,50 @@
 </section>
 
 <section>
+   <div class="ling-calc">
+    <div class="fundo">
+        <h1> ANSELMO HENRIQUE 2B</h1>
+        <div class="calculadora">
+            <h1>Calculadora</h1>
+            <p id="resultado"></p>
+            <table>
+                <tr>
+                    <td><button class="button" onclick="clean('C')">C</button> </td>
+                    <td><button class="button" onclick="back('<')"><</button> </td>
+                    <td><button class="button" onclick="insert('/')">/</button> </td>
+                    <td><button class="button" onclick="insert('*')">x</button> </td>
 
-<div class="linginp">
-    <div class="inp1"> 
-        <p>  Digite um numero</p>
-            <input type="number"  value="x" id="inp1"  placeholder="ValorX">
+                </tr>
+                <tr>
+                    <td><button class="button" onclick="insert('7')">7</button></td>
+                    <td><button class="button" onclick="insert('8')">8</button> </td>
+                    <td><button class="button" onclick="insert('9')">9</button> </td>
+                    <td><button class="button" onclick="insert('-')">-</button></td>
+                    
+                </tr>
+                <tr>
+                    <td><button class="button" onclick="insert ('4')">4</button></td>
+                    <td><button class="button" onclick="insert ('5')">5</button></td>
+                    <td><button class="button" onclick="insert ('6')">6</button></td>
+                    <td><button class="button" onclick="insert ('+')">+</button></td>
+                </tr>
+                <tr>
+                    <td><button class="button" onclick="insert ('1')">1</button></td>
+                    <td><button class="button" onclick="insert ('2')">2</button></td>
+                    <td><button class="button" onclick="insert ('3')">3</button></td>
+                    <td rowspan="2"><button class="button" style="height:106px" onclick="calcular ('=')">=</button></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button class="button" style="width:106px" onclick="insert ('0')">0</button></td>
+                    <td><button class="button" onclick="insert ('.')">.</button></td>
+                </tr>
+            </table>
+        </div>
     </div>
-<
-
-
-    <div class="inp2">
-        <p>Digite outro numero</p>
-        <input type="number"  value="y" id="inp2" placeholder="ValorY">
-    
-    </div>
-
-
-    <div class="inp3">
-        <p>Seu Resultado</p>
-        <input type="number"  id="r" readonly placeholder="Resultado">
-    </div>
-</div>
-
-<div class="btn">
-    <button onclick="soma()">Soma</button>
-    <button onclick="subtracao()">Subtração</button>
-    <button onclick="divisao()">Divição</button>
-    <button onclick="mutiplicacao()">Mutiplicação</button>
-
-</div>
+</div>  
 </section>
 
+<script src="./lex.js"></script>
 
 </body>
 </html>
